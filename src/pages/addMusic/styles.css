@@ -1,0 +1,78 @@
+.addMusic{
+    margin-right: 10px;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.addMusic img{
+    height: 120px;
+    margin-bottom: 20px;
+}
+.addMusic form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.addMusic label{
+    margin-bottom: 15px;  
+}
+.nameMusic{
+    margin-left: 35px;
+}
+.durationMusic{
+    margin-left: 15px;
+}
+.formatoMusic{
+    margin-left: 15px;
+}
+.addMusic input{
+    margin-left: 10px; 
+    flex: 1;
+    font-size: 13px;
+    color: #121212;;
+    border: none; 
+    height: 30px;
+    border-radius: 25px;
+    padding-left: 15px
+}
+.addMusic select{
+    margin-left: 15px;
+    flex: 1;
+    font-size: 13px;
+    color: #121212;
+    border: none; 
+    height: 30px;
+    border-radius: 25px;
+    padding-left: 15px;
+    width: 150px;
+}
+.musicUpload input{
+    color: #fff;
+}
+.addMusic button{ 
+    background: #1db864;
+    height: 32px;
+    border-radius: 16px;
+    color: #fff;
+    line-height: 32px;
+    padding: 0 35px;
+    border: none;
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 1.11px;
+}
+.addMusic p{
+    margin: 15px 0;   
+}
+.addMusic p a{
+    margin-left: 10px;
+    color: inherit;
+    text-decoration: none;
+    line-height: 32px;
+}
+.addMusic:hover{
+    color: #fff;
+}

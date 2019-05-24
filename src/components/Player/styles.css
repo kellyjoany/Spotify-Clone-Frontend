@@ -1,0 +1,97 @@
+.Player{
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #282828;
+  padding: 12px;  
+}
+.Player div:first-child{
+  display: flex;  
+}
+.current{
+  /*width: 220px;*/
+  display: flex;
+  align-items: center;  
+}
+.current img{
+  width: 48px;
+  height: 48px;
+}
+.currentTitle{
+  margin-left:12px;
+  display: flex;
+  flex-direction: column;
+}
+.currentTitle span{
+  font-size:13px;
+  color: #fff;
+}
+.currentTitle small{
+  font-size:11px;
+  color: #b3b3b3;
+  margin-top: 5px;
+}
+.progressMusic{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+.controlsMusic{
+  display: flex;
+  align-items: center;    
+}
+.controlsMusic button{
+  background: transparent;
+  border: 0;
+  margin: 0 15px;    
+}
+.timeMusic{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;       
+}
+.timeMusic span{
+  font-size: 11px;
+  color: #b3b3b3;    
+}
+.progressSlider{
+  width: 500px;
+  margin: 0 15px;
+}
+.volume{
+  display: flex;
+  align-items: center;
+  width: 100px;
+  margin-right: 20px;
+}
+.volume img{
+  margin-right: 5px;
+}
+.shuffle{
+  filter: invert(100%);
+}
+.repeat{
+  filter: invert(100%);
+}
+.Player button:focus{
+  outline: none;
+}
+
+@media(max-width: 768px) {
+  .Player {
+    flex-direction: column;
+    max-width: 100%;
+    margin-bottom: 100px;
+  }
+  .progressMusic,
+  .progressSlider{
+    width: 100%;
+  }
+  .Player div:first-child{
+    align-self: flex-start;
+  }
+  .volume{
+    margin-top:15px;
+  }
+}

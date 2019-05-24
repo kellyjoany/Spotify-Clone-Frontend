@@ -1,0 +1,58 @@
+.addAlbum{
+    margin-right: 10px;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.addAlbum img{
+    height: 120px;
+    margin-bottom: 20px;
+}
+.addAlbum form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.addAlbum label{
+    margin-bottom: 15px;  
+}
+.addAlbum input{
+    margin-left: 10px; 
+    flex: 1;
+    font-size: 13px;
+    color: #121212;
+    border: none; 
+    height: 30px;
+    border-radius: 25px;
+    padding-left: 15px
+}
+.addAlbum .photo input{
+    color: #fff;
+}
+.addAlbum button{ 
+    background: #1db864;
+    height: 32px;
+    border-radius: 16px;
+    color: #fff;
+    line-height: 32px;
+    padding: 0 35px;
+    border: none;
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 1.11px;
+}
+.addAlbum p{
+    margin: 15px 0;   
+}
+.addAlbum p a{
+    margin-left: 10px;
+    color: inherit;
+    text-decoration: none;
+    line-height: 32px;
+}
+.addAlbum:hover{
+    color: #fff;
+}

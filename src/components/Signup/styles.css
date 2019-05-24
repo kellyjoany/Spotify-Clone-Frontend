@@ -1,0 +1,107 @@
+.signup{
+    margin-right: 10px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+}
+/*}.signup img{
+    height: 120px;
+    margin-bottom: 20px;
+} */
+.signup .logo{
+    width: 350px;
+    margin-bottom: 20px;
+}
+.signup img{
+    width: 100%;
+}
+.signup form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.signup label{
+    margin-bottom: 15px;  
+}
+.signup select{
+    margin-left: 15px;
+    flex: 1;
+    font-size: 13px;
+    color: #121212;
+    border: none; 
+    height: 30px;
+    border-radius: 25px;
+    padding-left: 15px;
+    width: 150px;
+}
+.signup input{
+    margin-left: 10px; 
+    flex: 1;
+    font-size: 13px;
+    color: #121212;
+    border: none; 
+    height: 30px;
+    border-radius: 25px;
+    padding-left: 15px
+}
+.photo input{
+    color: #fff;
+}
+.signup input[type=file] {
+    width: 150px;
+}
+.loginName{
+    margin-left: 30px;
+}
+.password{
+    margin-left: 30px;
+}
+.passwordMessage{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.artistName{
+    margin-left: 35px;
+}
+.email{
+    margin-left: 35px;
+}
+.photo{
+    padding-left: 35px;
+}
+.select{
+    margin-left: 20px;
+}
+.signup button{ 
+    background: #1db864;
+    height: 32px;
+    border-radius: 16px;
+    color: #fff;
+    line-height: 32px;
+    padding: 0 35px;
+    border: none;
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 1.11px;
+}
+.signup p{
+    margin: 15px 0;
+}
+.signup p a{
+    margin-left: 10px;
+    color: inherit;
+    text-decoration: none;
+    line-height: 32px;
+}
+.signup:hover{
+    color: #fff;
+}
+
+@media(max-width:768px){
+    .signup .logo{
+        width:80%;
+    }
+}

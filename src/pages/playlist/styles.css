@@ -1,0 +1,92 @@
+.conteinerListMusics{
+  margin-top:30px;
+}
+.headerListMusics{
+  display: flex;
+  align-items: center;
+}
+.headerListMusics img{
+  height:220px;
+  width: 220px;
+}
+.headerListMusics div{
+  margin-left: 20px;
+}
+.headerListMusics span{
+  font-size: 11px;
+  letter-spacing: 1.11px;
+  font-weight: 300;
+}
+.headerListMusics h1{
+  margin-top:10px;
+  font-size: 48px;
+}
+.headerListMusics p{
+  margin-top:0;
+  color: #b3b3b3;
+  font-size: 11px;
+  letter-spacing: 1.11px;
+  text-transform: uppercase;
+}
+.headerListMusics button{ 
+  background: #1db864;
+  height: 32px;
+  border-radius: 16px;
+  color: #fff;
+  line-height: 32px;
+  padding: 0 35px;
+  border: none;
+  margin-top: 10px;
+  font-size: 12px;
+  letter-spacing: 1.11px;
+}
+.songList table{
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;
+}    
+.songList thead th{
+  font-size: 11px;
+  color: #b3b3b3;
+  letter-spacing: 1.11px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 5px 10px;
+} 
+.songList thead th:last-child{
+  text-align: right;
+}
+.songList tbody td{
+  border-top: 1px solid #282828;
+  font-size: 13px;
+  padding: 10px;
+  /*line-height: 40px;*/
+}
+.songList tbody td:first-child{
+  /* width: 80px; */
+  text-align: right; 
+}
+.songList tbody td:last-child{
+  text-align: right; 
+}
+.songList tbody tr:hover td{
+  background: #282828;
+}
+.songList tbody .musicLoaded td{
+  /* border-top: 1px solid #282828;
+  font-size: 13px;
+  padding: 10px; */
+  /*line-height: 40px;*/
+  background: #282828;
+  color: #1ed760;
+}
+/* .songList tbody .musicLoaded td:first-child{
+  width: 80px;
+  text-align: right; 
+}
+.songList tbody .musicLoaded td:last-child{
+  text-align: right; 
+}
+.songList tbody .musicLoaded tr:hover td{
+  background: #282828;
+} */
