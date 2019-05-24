@@ -18,7 +18,7 @@ Spotify-Clone was a project presented to IronHack as the conclusion of the third
 
 ## Access Spotify-Clone
 
-You can access the project here [Spotify-Clone](https://no-wait.herokuapp.com/).
+You can access the project here [Spotify-Clone](https://spotifyclone-kelly-and-mario.herokuapp.com/).
 
 ## History
 
